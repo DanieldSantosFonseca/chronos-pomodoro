@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    // CSS
+    "clinyong.vscode-css-modules",
+    "pranaygp.vscode-css-peek",
+    "vunguyentuan.vscode-css-variables",
+    // Formatter
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    // Git
+    "eamodio.gitlens"
+  ]
+}
