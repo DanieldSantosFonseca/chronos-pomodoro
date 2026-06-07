@@ -9,26 +9,8 @@ import { Logo } from './components/Logo';
 import { Menu } from './components/Menu';
 
 export function App() {
-  // Qu
-  let numero = 1;
-
-  function handleClick() {
-    const span = document.getElementById('numero');
-
-    if (!span) return;
-
-    numero++;
-    span.innerText = String(numero);
-    console.log(numero, Date.now());
-  }
-
   return (
     <>
-      <Footer>
-        Número: <span id='numero'>{numero}</span>
-      </Footer>
-      <button onClick={handleClick}>Aumenta</button>
-
       <Container>
         <Logo />
       </Container>
